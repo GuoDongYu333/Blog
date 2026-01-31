@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
+  <rect width="80" height="80" rx="16" fill="url(#fe-grad)" opacity="0.9"/>
+  <rect x="16" y="14" width="48" height="32" rx="4" fill="white" opacity="0.95"/>
+  <circle cx="26" cy="24" r="3" fill="#10B981"/>
+  <circle cx="36" cy="24" r="3" fill="#10B981" opacity="0.7"/>
+  <circle cx="46" cy="24" r="3" fill="#10B981" opacity="0.5"/>
+  <rect x="20" y="34" width="40" height="4" rx="2" fill="#10B981" opacity="0.6"/>
+  <rect x="20" y="42" width="28" height="4" rx="2" fill="#10B981" opacity="0.4"/>
+  <defs>
+    <linearGradient id="fe-grad" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10B981"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,33 @@
+/* 首页背景：固定到视口，不参与文档流，避免产生多余滚动 */
+.VPHome {
+  background: linear-gradient(160deg, #f0f4ff 0%, #e8eeff 30%, #fdf8f3 70%, #f5f0eb 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* 深色模式下的背景 */
+.dark .VPHome {
+  background: linear-gradient(160deg, #1a1b26 0%, #16161e 40%, #1e1e2e 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* 首页主内容区，适当收紧底部间距 */
+.VPHome .container {
+  padding-bottom: 2rem;
+}
+
+/* 四个主题卡片略增强阴影，与背景区分 */
+.VPHome .VPFeature {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.dark .VPHome .VPFeature {
+  background: rgba(30, 30, 46, 0.85);
+  border-color: rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
